@@ -6,15 +6,23 @@ A modern, responsive **Multi-Step Employee Onboarding Wizard** built with **Reac
 
 ## 📸 Preview
 
-> Add screenshots after deployment.
-
 - 🏠 Step 1 – Personal Information
-- 🔐 Step 2 – Account Details
-- 📋 Step 3 – Review & Submit
-- ✅ Success Page
-- 🌙 Dark Mode
-- 📱 Mobile Responsive
+![alt text](image.png)
 
+- 🔐 Step 2 – Account Details
+![alt text](image-1.png)
+
+- 📋 Step 3 – Review & Submit
+![alt text](image-2.png)
+
+- ✅ Success Page
+![alt text](image-3.png)
+
+- 🌙 Dark Mode
+![alt text](image-4.png)
+
+- 📱 Mobile Responsive
+![alt text](image-5.png)
 ---
 
 ## ✨ Features
