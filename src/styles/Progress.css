@@ -1,0 +1,179 @@
+/* ===========================
+   Stepper
+=========================== */
+
+.stepper{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:flex-start;
+
+margin:40px 0;
+
+position:relative;
+
+gap:10px;
+
+}
+
+/* ===========================
+   Step Item
+=========================== */
+
+.step-item{
+
+flex:1;
+
+position:relative;
+
+text-align:center;
+
+}
+
+/* ===========================
+   Circle
+=========================== */
+
+.step-circle{
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+background:#dbeafe;
+
+color:#2563eb;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin:auto;
+
+font-weight:700;
+
+font-size:20px;
+
+transition:.4s;
+
+z-index:2;
+
+position:relative;
+
+}
+
+/* Active */
+
+.step-circle.active{
+
+background:#2563eb;
+
+color:white;
+
+box-shadow:0 0 15px rgba(37,99,235,.4);
+
+transform:scale(1.08);
+
+}
+
+/* Completed */
+
+.step-circle.completed{
+
+background:#10b981;
+
+color:white;
+
+}
+
+/* ===========================
+   Line
+=========================== */
+
+.step-line{
+
+position:absolute;
+
+top:27px;
+
+left:55%;
+
+width:90%;
+
+height:5px;
+
+background:#dbeafe;
+
+z-index:1;
+
+transition:.4s;
+
+}
+
+.step-line.active{
+
+background:#10b981;
+
+}
+
+/* ===========================
+   Text
+=========================== */
+
+.step-item p{
+
+margin-top:12px;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#475569;
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media(max-width:768px){
+
+.stepper{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.step-item{
+
+display:flex;
+
+align-items:center;
+
+text-align:left;
+
+gap:18px;
+
+}
+
+.step-line{
+
+display:none;
+
+}
+
+.step-item p{
+
+margin-top:0;
+
+}
+
+}
